@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnish Art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('dark_swirls.jpeg'); background-size: cover; background-repeat: no-repeat;" alt="dark_swirls">
+
+    <header class="black-background">
+        <img src="finnishArtLogo.jpeg" class="right-align img" alt="FinnishArtLogo">
+        <h3 class="left-align">Finnish Art <br>
+            Suomalaisenkatu 1 A, 01230 Helsinki, p. 010 010 0001</h3>
+
+        <nav class="right-align">
+            <a href="FinnishArt.html" class="button">Home</a>
+            <a href="ContactPage.html" class="button">Contact us</a>
+        </nav>
+    </header>
+    <div class="header-text">Contact us!</div>
+
+    <main>
+        <p class="black-background">Do you have any questions for us, or would you like to advertise your own artworks on our website?<br>
+            Leave us your contact information, and we will get in touch with you!</p>
+
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required><br><br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                
+                <button type="submit" class="button">Send</button>
+            </form>
+    </main>
+    <div></div>
+
+    <footer>
+        <div class="footer-section">
+            <div>
+                <h3>Finnish Art</h3>
+                <p>Suomalaisenkatu 1 A, 01230 Helsinki</p>
+                <p>p. 010 010 0001</p>
+            </div>
+            <div>
+                <h3>
+                    <nav>
+                        <a href="FinnishArt.html" class="button">Home</a>
+                    </nav>
+                </h3>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
