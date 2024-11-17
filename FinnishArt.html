@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnish Art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- head, body-style (back-ground image) and h1 are almost identical on each page. Only differences have been pointed out in other pages than the main page--> 
+
+  <!-- Back-ground image is set here -->
+<body style="background-image: url('dark_swirls.jpg'); background-size: cover; background-repeat: no-repeat;" alt="dark_swirls">
+  
+<!-- Header is only visible in bigger screens, not in mobilephones etc -->
+    <header class="black-background">
+          <!-- Logo is only used in bigger sceens -->
+        <img src="finnishArtLogo.jpeg" class="right-align img" alt="FinnishArtLogo">
+          <!-- contact info is shown in the header in bigger screens -->
+        <h3 class="left-align">Finnish Art <br>
+            Suomalaisenkatu 1 A, 01230 Helsinki, p. 010 010 0001</h3>
+          <!-- navigation buttons are in the upper right side in the header in bigger screens. Only needed buttons are visible in each page -->
+        <nav class="right-align">
+            <a href="ContactPage.html" class="button">Contact us</a>
+        </nav>
+    </header>
+
+      <!-- h1 text for the page -->
+    <h1>Finnish Art</h1>
+
+    <main>
+          <!-- Text sections use black-background style in all the pages-->
+        <p class="black-background">
+            Welcome to supporting Finnish artists!<br>This site is designed to bring together artists of various levels and their works. <br>
+            This site is for marketing purposes only, and Finnish Art is not responsible for selling the artworks. 
+            Each artist is responsible for selling their own works and making deals with the buyer.<br>
+        </p>
+
+          <!-- divs show one painting from each artist and the artist name. By clocking the painting user will be redirected
+            to the Finnish Art's artist page that shows more paintings from the clicker artist-->
+        <div class="image-row">
+            <div class="image-container">
+                <a href="ArtistPage.html">
+                    <img src="Praia+de+Lopes+Mendes.jpg" alt="Praia de Lopes Mendes" class="painting-image">
+                </a>
+                <div class="artist-name">Nousari Art</div>
+            </div>
+            <div class="image-container">
+                  <!-- Kumart and Copilot are only here to give a visual idea, how new artists could market their art in the site -->
+                <a href="https://kairuotsalainen.wixsite.com/portfolio/portfolio-collections/my-portfolio/kumart">
+                  <img src="kumasuno.jpeg" alt="kumasuno" class="painting-image">
+                </a>
+                <div class="artist-name">Kumart</div>
+            </div>
+            <div class="image-container">
+                <a href="https://www.bing.com/images/create/a-forest/1-6730c99294ab46b9b9768c2626b628ae?id=Jq%2fWB%2fU4cJju7RHhzb51dg%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG2.g5unoPCQ5LCujVTRSKhF&frame=sydedg&skey=5CJ3u2Z2njndOVHA9CT3sbl2hvIUOgBBw0zZT0jcQ0o&FORM=SYDBIC">
+                <img src="forest_and_mushrooms.jpeg" alt="copilot's forrest painting" class="painting-image">
+            </a>
+                <div class="artist-name">Copilot</div>
+            </div>
+        </div>
+    </main>
+    
+      <!-- Footer is not visible in bigger screens, only on mobilephones -->
+    <footer>
+    <div class="footer-section">
+        <div>
+              <!-- footer uses the same black-background style than the header, but buttons and contact information 
+               is show in the footer instead of the header -->
+            <h3>Finnish Art</h3>
+            <p>Suomalaisenkatu 1 A, 01230 Helsinki</p>
+            <p>p. 010 010 0001</p>
+        </div>
+        <div>
+            <h3>
+                <nav>
+                      <!-- only needed buttons are shown in each page e.g. home page does not give an option to navigate to homepage -->
+                    <a href="ContactPage.html" class="button">Contact us</a>
+                    
+                </nav>
+            </h3>
+        </div>
+
+    </div>
+    </footer>
+</body>
+</html>

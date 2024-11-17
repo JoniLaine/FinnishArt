@@ -1,1 +1,1 @@
-# FinnishArt
+# Finnishart
