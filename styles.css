@@ -94,7 +94,12 @@ body {
     font-weight: bold;
     font-style: italic;
 }
-  
+
+h1 {
+    font-size: 1.5em; /* This makes the h1 1.5 times the size of the base font size */
+}
+
+
   .artist-name {
     margin-top: 10px;
     font-size: 22px;
