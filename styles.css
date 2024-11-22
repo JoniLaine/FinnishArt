@@ -26,7 +26,7 @@ body {
   h2 {
     margin-top: 20px;
     padding: 10px;
-    font-size: 64px;
+    font-size: 20px;
     font-weight: bold;
     font-style: italic;
   }
@@ -96,7 +96,7 @@ body {
 }
 
 h1 { 
-    font-size: 400%;
+    font-size: 450%;
     font-weight: bold; 
     line-height: 1.2; /* for better readability */ 
     text-align: center; 
@@ -193,7 +193,7 @@ main {
 /* Show footer on smaller screens */
 @media (max-width: 768px) {
   .footer-section {
-      display: flex;
+      display: flex;  
   }
   /* Hide header on smaller screens */
   header.black-background {
@@ -202,6 +202,7 @@ main {
   .image-row {
     flex-direction: column; /* pictures in column istead of the row in smaller screens */
   }
+
   .image-container {
       flex: 1 1 100%; /* Full width on small screens */
   }
