@@ -23,7 +23,7 @@ body {
     object-fit: cover; /* the image covers the area without distortion */
   }
   
-  h1 {
+  h2 {
     margin-top: 20px;
     padding: 10px;
     font-size: 64px;
